@@ -1,0 +1,396 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body, html {
+  height: 100%;
+   font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <100px>;
+  font-style: normal;
+}
+
+.page .container {
+  background: url('image/hero-bg.jpg') no-repeat center center/cover;
+  width: 1255px;
+  height: 472px;
+  color: white;
+  text-align: center;
+   position: relative; 
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 24px;
+}
+
+.logo {
+  font-weight: 300;
+  font-size: 28px;
+}
+
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 600px;
+  color: black;
+  /* font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal; */
+}
+
+main h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+main p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+input {
+  padding: 10px 15px;
+  border-radius: 25px;
+  border: none;
+  width: 200px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #ff6b3b;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.1s ease;
+}
+
+button:hover {
+  background-color: #b86043;
+}
+
+.about .container {
+  display: flex;
+  background-color: white;
+  width: 1255px;
+  height: 464px;
+  margin: 40px auto;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.image-section {
+  flex: 1;
+}
+
+.image-section img {
+  width: 70%;
+  height: 68%;
+  margin-top: 50px;
+  margin-left: 180px;
+}
+
+.text-section {
+  flex: 1;
+  padding: 30px;
+  /* font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal; */
+}
+
+.text-section h2 {
+  font-size: 20px;
+  color: #444;
+  margin-top: 20px;
+   margin-bottom: 6px;
+}
+
+.text-section p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+
+.text-section ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 18px;
+}
+
+.text-section li {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.text-section li i {
+  color: #ff6600;
+  margin-right: 8px;
+}
+
+.features .container {
+  background-color: #fff5ef;
+  display: flex;
+  gap: 20px;
+  width: 1255px;
+  height: 480px;
+ padding: 40px 20px;
+ justify-content: center;
+ align-items: center;
+}
+
+.card {
+  background-color: white;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  /* overflow: hidden; */
+  text-align: center;
+  justify-content: center;
+  align-items: center; 
+  padding-bottom: 2%;
+  transition: transform 0.2s;
+  /* font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal; */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover; 
+}
+
+.card-icon {
+  font-size: 24px;
+  color: white;
+  background-color: #f97316;
+  width: 55px;
+  height: 55px;
+  margin: -30px auto 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 3px solid white;
+  position: relative; 
+  top: -2px;
+}
+
+.card h3 {
+  margin: 0 0 10px;
+  color: #673333;
+}
+
+.card p {
+  color: darkslategray;
+  padding: 0 15px;
+  font-size: 14px;
+}
+
+.faq-section {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 0 20px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  /* font-optical-sizing: auto; */
+  /* font-weight: <50px>; */
+  font-style: normal;
+}
+
+.faq-section h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.underline {
+  width: 80px;
+  height: 2.5px;
+  background: #f8a45c;
+  margin: 0 auto 30px;
+  border-radius: 2px;
+}
+
+.faq {
+  text-align: left;
+}
+
+.faq-item {
+  border-bottom: 1px solid #eee;
+  padding: 15px 0;
+}
+
+.faq-question {
+  background: none;
+  border: none;
+  font-size: 16px;
+  width: 90%;
+  text-align: left;
+  cursor: pointer;
+  padding: 0;
+  position: relative;
+  color: #854242;
+}
+.faq-question:hover {
+    display: inline;
+    color:  #481d0e;
+}
+.faq-question::after {
+  content: 'V';
+  position: absolute;
+  right: 0;
+  transition: transform 0.3s;
+} 
+
+.faq-answer {
+  display: none;
+  padding-top: 10px;
+  color: #666;
+  font-size: 14px;
+}
+
+ .faq-answer.active {
+  display: block;
+} 
+ .contact {
+  background: #fff5ee;
+  margin: 0;
+  padding: 0;
+  width: 1255px;
+   height: 548px;  
+} 
+
+.contact-section {
+  padding: 40px; 
+  text-align: center; 
+  /* background-color: #fff5ef; */
+}
+
+.contact-section h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  position: relative;
+  /* font-family: "Raleway", sans-serif; */
+  /* font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal; */
+}
+
+.contact-section h2::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #ff6600;
+  margin: 10px auto;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; 
+  flex-wrap: wrap; 
+  margin-top: 30px;
+}
+
+.contact-info {
+  flex: 1;
+   min-width: 250px; 
+  margin-right: 10px;
+  text-align: left; 
+}
+
+ .contact-info p {
+  margin: 20px 0; 
+  margin-left: 10px;
+  /* margin-right: 30px;  */
+  /* padding-left: 10px; */
+  font-size: 16px;
+  color: #333;
+} 
+
+.contact-info i {
+  color: #ff6600;
+  margin-right: 10px; 
+  margin-left: 10px;
+}
+
+.social-icons i {
+  font-size: 18px;
+  color: #fff;
+  background: #3c1f00;
+  padding: 10px;
+  border-radius: 50%;
+  transition: 0.2s;
+}
+
+.social-icons i:hover {
+  background: #7d5c38;
+}
+
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+  /* justify-content: center;
+  align-items: center; */
+
+} 
+
+.contact-form input,textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background: #ff6600;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+footer {
+  background: #3c1f00;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  /* margin-top: 40px; */
+  font-size: 14px;
+}
+
+
